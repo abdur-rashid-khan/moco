@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moco Apps</title> 
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="vendors/css/aos.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;1,700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="vendors/css/grid.css">
+    <link rel="stylesheet" href="vendors/css/normalize.css">
+    <link rel="stylesheet" href="vendors/css/animate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">  
+</head>
+<body> 
+<header id='home'>
+    <nav>
+        <div class="container">
+            <a id="logo" href="#home">MoGo</a>
+            <div class="manuItem">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#servise">seevice</a></li>
+                    <li><a href="#amazingWork">work</a></li>
+                    <li><a href="#allAbout">blog</a></li>
+                    <li><a href="#last">contact</a></li>
+                    <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                    <li><a href="#"><i class="fas fa-search"></i></a></li>
+                </ul>
+            </div>
+                <div class="mobilemanu">
+                    <span onclick="openNav()">&#9776;</span>
+                    <div id="mayNav"  class="overlay">
+                        <a href="javascript:void(0)" onclick="closeNav()" class="closeBtn">&times;</a>
+                        <div  class="overlayContent">
+                            <a href="#home" onclick="closeNav()">Home</a>
+                            <a href="#servise" onclick="closeNav()">seevice</a>
+                            <a href="#amazingWork" onclick="closeNav()">work</a>
+                            <a href="#allAbout" onclick="closeNav()">blog</a>
+                            <a href="#last" onclick="closeNav()">contact</a>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+        </nav>
+        <div class="container">
+        <div class="homeText py" data-aos="fade-in">
+            <h3>
+                Creative Template
+            </h3>
+            <h1 id="typingNow"></h1>
+            <a href="#" type="button" id="btn">learn more</a>
+        </div>
+        <div class="homeInto" data-aos="fade-in">
+            <div class="col span_1_of_4">
+                <div class="minIntro">
+                    <div class="primary">
+                        <div class="secound"><hr></div>
+                    </div>
+                    <p style="margin-top:1rem;">01 <span style="font-size: 1rem;"> INTRO</span></p>
+                </div>
+            </div>
+            <div class="col span_1_of_4">
+                <div class="minWork">
+                    <hr>
+                    <p>02  <span style="font-size: 1rem;"> WORK</span></p>
+                </div>
+            </div>
+            <div class="col span_1_of_4">
+                <div class="minWork">
+                    <hr>
+                    <p>03  <span style="font-size: 1rem;"> ABOUT</span></p>
+                </div>
+            </div>
+            <div class="col span_1_of_4">
+                <div class="minWork">
+                    <hr>
+                    <p>04  <span style="font-size: 1rem;"> CONTACTS</span></p>
+                </div>
+            </div>
+        </div>
+    </div> 
+</header>
+<section id="about " class="py js--services-section">
+    <div class="container">
+        <div class="storySection" data-aos="fade-up">
+            <h3>What we do ?</h3>
+            <h2>Story about us</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+        </div> 
+    <div class="aboutphoto" >
+        <div class="col span_1_of_3" data-aos="fade-up">
+            <div class="fastphoto">
+                <div class="aboutext">
+                    <div id="overlay">
+                        <span><i class="fas fa-user-friends"></i></span>
+                        <p>SUPER TEAM</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col span_1_of_3" data-aos="fade-up">
+            <div class="secundphoto">
+                <div class="aboutext">
+                    <div id="overlay">
+                        <span><i class="fas fa-user-friends"></i></span>
+                        <p>SUPER TEAM</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col span_1_of_3" data-aos="fade-up">
+            <div class="lastphoto">
+                <div class="aboutext">
+                    <div id="overlay">
+                        <span><i class="fas fa-user-friends"></i></span>
+                        <p>SUPER TEAM</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+<section id="count" class="py">
+    <div class="container" data-aos="fade-up">
+        <div class="col span_1_of_5">
+            <div class="countContent">
+                <h4 class="counter">42</h4>
+                <p>Web Design Projects</p>
+            </div>
+        </div>
+        <div class="col span_1_of_5">
+            <div class="countContent">
+                <h4 class="counter">32</h4>
+                <p>Logo Design Projects</p>
+            </div>
+        </div>
+        <div class="col span_1_of_5">
+            <div class="countContent">
+                <h4 class="counter">23</h4>
+                <p>Award winner Projects</p>
+            </div>
+        </div>
+        <div class="col span_1_of_5">
+            <div class="countContent">
+                <h4 class="counter">55</h4>
+                <p>Photo Edit Projects</p>
+            </div>
+        </div>
+        <div class="col span_1_of_5">
+            <div class="countContent">
+                <h4 class="counter">62</h4>
+                <p>Psd to Html Projects</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="amazingWork" class="py" data-aos="fade-right">
+    <div class="container">
+        <div class="storySection">
+            <h3>We Work With</h3>
+            <h2>AMAZING WORK</h2> 
+        </div>
+        <div style="padding-top: 0rem;">
+        <div class="">
+            <div class="col span_1_of_3">
+                <div class="amaxingContant">
+                    <div class="icon">
+                        <span><i class="fas fa-clock"></i></span>
+                        <p>Photography</p> 
+                    </div>
+                    <div class="amazingText">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col span_1_of_3">
+                <div class="amaxingContant">
+                    <div class="icon">
+                        <span><i class="fas fa-file-code"></i></span>
+                        <p>Web Design</p>
+                    </div>
+                    <div class="amazingText">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col span_1_of_3">
+                <div class="amaxingContant">
+                    <div class="icon">
+                        <span><i class="fas fa-desktop"></i></span>
+                        <p>Creativity Design</p>
+                    </div>
+                    <div class="amazingText">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div >
+            <div class="col span_1_of_3">
+                <div class="amaxingContant">
+                    <div class="icon">
+                        <span><i class="fas fa-book-open"></i></span>
+                        <p>SCO</p>
+                    </div>
+                    <div class="amazingText">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col span_1_of_3">
+                <div class="amaxingContant">
+                    <div class="icon">
+                        <span><i class="fas fa-chalkboard-teacher"></i></span>
+                        <p>CSS/HTML</p>
+                    </div>
+                    <div class="amazingText">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col span_1_of_3">
+                <div class="amaxingContant">
+                    <div class="icon">
+                        <span><i class="fas fa-clone"></i></span>
+                        <p>Digital</p>
+                    </div>
+                    <div class="amazingText">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+<section id="servise" class="py">
+    <div class="container">
+        <div class=" " data-aos="fade-up">
+            <h3 style="margin-bottom: 1.4rem;">Services</h3>
+            <h2>WHAT  WE DO ?</h2> 
+        </div> 
+            <div class="serviseCOl"  data-aos="fade-up">
+                <div class="col span_1_of_2">
+                    <div class="serviseImg">
+                        <img  style="width: 100%;" src="img/servises.jpg" alt="file reloder your page">
+                    </div>
+                </div>
+                <div class="col span_1_of_2">
+                    <div class="serviseText" onclick="showText()">
+                        <a  href="#"  id="showText">Photography</a>
+                        <span><i class="fas fa-caret-square-down"></i></span>
+                    </div>
+                    <div class="serviceText">
+                        <p class="serviseContent">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit tenetur aspernatur temporibus a adipisci sed ratione error quas harum cupiditate!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.  ipsum dolor sit amet consectetur adipisicing elit.  
+                        </p>
+                    </div>
+                    <div class="serviseText" onclick="showText()">
+                        <a  href="#"  id="showText">Photography</a>
+                        <span><i class="fas fa-caret-square-down"></i></span>
+                    </div>
+                </div> 
+            </div>
+    </div>
+</section> 
+<section id="team" class="py">
+    <div class="container">
+        <div class="teamText" data-aos="fade-right">
+            <h3 style="padding-bottom: 1rem;">Services</h3>
+            <h2>WHAT  WE DO ?</h2> 
+        </div>
+        <div class="teamMember" data-aos="fade-down">
+            <div class="col span_1_of_3">
+                <div id="memberImg">
+                    <div class="overaly">
+                        <div class="socalicon">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <i style="color: #5c4cf1d0;" class="fab fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i style="color: #42ebebd0;"class="fab fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i style="color: #eb2922d0;" class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i style="color: #2ee64cd0;" class="fab fa-whatsapp"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                    </div>
+                    </div>
+                </div>
+                <div class="teeamName">
+                    <h4>David</h4>
+                    <strong style="color:#f0211ad0;">Photographer </strong>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, cum.</p>
+                </div>
+            </div>
+            <div class="col span_1_of_3">
+                <div id="memberImg1">
+                    <div class="overaly">
+                        <div class="socalicon">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <i style="color: #5c4cf1d0;" class="fab fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i style="color: #42ebebd0;" class="fab fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i style="color: #eb2922d0;" class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i style="color: #2ee64cd0;" class="fab fa-whatsapp"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                    </div>
+                    </div>
+                </div>
+                <div class="teeamName">
+                    <h4>David</h4>
+                    <strong style="color:#f0211ad0;">Photographer </strong>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, cum.</p>
+                </div>
+            </div>
+            <div class="col span_1_of_3">
+                <div id="memberImg3">
+                    <div class="overaly">
+                        <div class="socalicon">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <i style="color: #5c4cf1d0;" class="fab fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i style="color: #42ebebd0;" class="fab fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i style="color: #eb2922d0;" class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i style="color: #2ee64cd0;" class="fab fa-whatsapp"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                    </div>
+                    </div>
+                </div>
+                <div class="teeamName">
+                    <h4>David</h4>
+                    <strong style="color:#f0211ad0;">Photographer </strong>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, cum.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="someWork" class="py">
+    <div class="container">
+        <div class="teamText" data-aos="fade-right">
+            <h3 style="padding-bottom: 1rem;">What We Do ?</h3>
+            <h2>some of our work </h2> 
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum, quas sunt et voluptatum similique saepe dolor, impedit dolorem enim repellendus quam inventore voluptatem iusto, cupiditate omnis aperiam vel assumenda obcaecati ducimus error architecto.</p>
+        </div>
+        <div class="somePhoto" data-aos="fade-up">
+            <div class="col span_1_of_3">
+                <div class="samImgF">
+                    <div class="sameBg">
+                        <div class="someText">
+                            <i class="fas fa-photo-video"></i>
+                            <h4 style="padding: 1rem 0;">creatively designed</h4>
+                            <p style="font-size: 1.4rem;">Lorem ipsum dolor sit</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col span_1_of_3">
+                <div class="samImgS">
+                    <div class="sameBg">
+                        <div class="someText">
+                            <i class="fas fa-photo-video"></i>
+                            <h4 style="padding: 1rem 0;">creatively designed</h4>
+                            <p style="font-size: 1.4rem;">Lorem ipsum dolor sit</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col span_1_of_3">
+                <div class="samImgFO">
+                    <div class="sameBg">
+                        <div class="someText">
+                            <i class="fas fa-photo-video"></i>
+                            <h4 style="padding: 1rem 0;">creatively designed</h4>
+                            <p style="font-size: 1.4rem;">Lorem ipsum dolor sit</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="somePhoto" data-aos="fade-right">
+            <div class="col span_1_of_3">
+                <div class="samImgT">
+                    <div class="sameBg">
+                        <div class="someText">
+                            <i class="fas fa-photo-video"></i>
+                            <h4 style="padding: 1rem 0;">creatively designed</h4>
+                            <p style="font-size: 1.4rem;">Lorem ipsum dolor sit</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col span_1_of_3">
+                <div class="samImgFI">
+                    <div class="sameBg">
+                        <div class="someText">
+                            <i class="fas fa-photo-video"></i>
+                            <h4 style="padding: 1rem 0;">creatively designed</h4>
+                            <p style="font-size: 1.4rem;">Lorem ipsum dolor sit</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col span_1_of_3">
+                <div class="samImgSX">
+                    <div class="sameBg">
+                        <div class="someText">
+                            <i class="fas fa-photo-video"></i>
+                            <h4 style="padding: 1rem 0;">creatively designed</h4>
+                            <p style="font-size: 1.4rem;">Lorem ipsum dolor sit</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="happyCtaint" class="py">
+    <div class="container">
+        <div class="teamText" data-aos="fade-right">
+            <h3 style="padding-bottom: 1rem;">Happy Clients</h3>
+            <h2>WHAT PEPOLE SAY </h2> 
+        </div>
+        <div class="happyClients" data-aos="fade-right">
+            <div class="col span_1_of_2">
+                <div class="clientImg">
+                    <img src="img/t1.jpg" alt="reload this side">
+                </div>
+                <div class="clientText" >
+                    <h4>Matthew Dix</h4>
+                    <h5 style="padding: .8rem 0;">Web Design</h5>
+                    <p style="font-size: 1.4rem;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quaerat veritatis labore architecto, nihil magni quam iusto doloribus error cumque.</p>
+                </div>
+            </div>
+            <div class="col span_1_of_2">
+                <div class="clientImg">
+                    <img src="img/t2.jpg" alt="reload this side">
+                </div>
+                <div class="clientText" >
+                    <h4>Nick Karvounis</h4>
+                    <h5 style="padding: .8rem 0;">Graphic Design</h5>
+                    <p style="font-size: 1.4rem;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quaerat veritatis labore architecto, nihil magni quam iusto doloribus error cumque.</p>
+                </div>
+            </div>
+        </div> 
+        <div class="happyClients" data-aos="fade-right">
+            <div class="col span_1_of_2">
+                <div class="clientImg">
+                    <img src="img/t3.jpg" alt="reload this side">
+                </div>
+                <div class="clientText" >
+                    <h4>Jaelynn Castillo </h4>
+                    <h5 style="padding: .8rem 0;">Web Design</h5>
+                    <p style="font-size: 1.4rem;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quaerat veritatis labore architecto, nihil magni quam iusto doloribus error cumque.</p>
+                </div>
+            </div>
+            <div class="col span_1_of_2">
+                <div class="clientImg">
+                    <img src="img/t4.jpg" alt="reload this side">
+                </div>
+                <div class="clientText" >
+                    <h4>Mike Petrucci</h4>
+                    <h5 style="padding: .8rem 0;">Graphic Design</h5>
+                    <p style="font-size: 1.4rem;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quaerat veritatis labore architecto, nihil magni quam iusto doloribus error cumque.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="story" class="py" data-aos="fade-right">
+    <div class="container">
+        <div class="teamText">
+            <h3 style="padding-bottom: 1rem;">What We Do ?</h3>
+            <h2>some of our work </h2> 
+    </div>
+    <div class="stroyContent"data-aos="fade-up">
+        <div class="col span_1_of_3">
+            <div class="storyImg">
+                <div class="overly">
+                    <div class="date">15 Day Ago</div>
+                </div>
+            </div>
+            <div class="storyText">
+                <h4 style="padding-top: 1rem;">Lorem ipsum dolor sit amet.</h4>
+                <p style="font-size: 1.2rem;padding: 1.5rem 0;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. At dolor ipsa adipisci quidem fugit! Veritatis dolore mollitia itaque? Cum, quia.</p>
+            </div>
+            <hr>
+            <div class="storyMesseg">
+                <ul>
+                    <li><a href=""><span><i style="padding-right: 1rem;" class="far fa-eye"></i>542</span></a></li>
+                    <li><a href=""><span><i style="padding-right: 1rem;" class="far fa-comment-dots"></i>17</span></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col span_1_of_3">
+            <div class="storyImg1">
+                <div class="overly">
+                    <div class="date">15 Day Ago</div>
+                </div>
+            </div>
+            <div class="storyText">
+                <h4 style="padding-top: 1rem;">Lorem ipsum dolor sit amet.</h4>
+                <p style="font-size: 1.2rem;padding: 1.5rem 0;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. At dolor ipsa adipisci quidem fugit! Veritatis dolore mollitia itaque? Cum, quia.</p>
+            </div>
+            <hr>
+            <div class="storyMesseg">
+                <ul>
+                    <li><a href=""><span><i style="padding-right: 1rem;" class="far fa-eye"></i>542</span></a></li>
+                    <li><a href=""><span><i style="padding-right: 1rem;" class="far fa-comment-dots"></i>17</span></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col span_1_of_3">
+            <div class="storyImg2"> 
+                <div class="overly">
+                    <div class="date">15 Day Ago</div>
+                </div>
+            </div>
+            <div class="storyText">
+                <h4 style="padding-top: 1rem;">Lorem ipsum dolor sit amet.</h4>
+                <p style="font-size: 1.2rem;padding: 1.5rem 0;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. At dolor ipsa adipisci quidem fugit! Veritatis dolore mollitia itaque? Cum, quia.</p>
+            </div>
+            <hr>
+            <div class="storyMesseg">
+                <ul>
+                    <li><a href=""><span><i style="padding-right: 1rem;" class="far fa-eye"></i>542</span></a></li>
+                    <li><a href=""><span><i style="padding-right: 1rem;" class="far fa-comment-dots"></i>17</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+<section id="map" class="py">
+    <div class="mapConten" data-aos="fade-right">
+        <a href="https://www.google.com/maps"><i class="fas fa-map-marker-alt"></i></a>
+        <a style="color:#72e64e; font-weight: bold;" id="line" href="https://www.google.com/maps">Open Map </a>
+    </div>
+</section>
+<section id="allAbout" class="py">
+    <div class="container">
+        <div class="allfooteerContent"  data-aos="fade-up">
+        <div class="col span_1_of_2">
+            <div class="footerContent">
+                <h3 style="font-weight: bold ; color: #00dfa7; padding-bottom: 1rem;">MoGo</h3>
+                <p style="font-size: 1rem; line-height: 1.4rem; font-weight: bold ; color: #9c9999; margin-bottom: 4rem; ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod dolorum maxime sapiente inventore dolore! Molestias.  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae, ut! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut perferendis repellat architecto iusto. Velit ad dignissimos quas iusto facilis explicabo, odio quaerat vitae nihil modi doloremque maxime voluptates, quia adipisci molestias quasi accusantium. Repellendus reiciendis provident ex, voluptas neque dignissimos, facere itaque fugit maxime quod ut sed hic, a culpa?</p>
+                <a style="color: #0dbb87c5;font-weight: bold;font-size: 1.2rem;" href="#" ><strong style="color: #394b46c5; font-size: 1.6rem;">15K</strong> followers</a>
+                <hr>
+                <ul>
+                    <li>
+                        <p style="font-family:  'Kaushan Script', cursive; color: #0dbb87c5;">Follow : </p>
+                    </li>
+                    <li>
+                        <a href="#"><i style="color: #23b9ff;" class="fab fa-facebook"></i></a>
+                    </li><li>
+                        <a href="#"><i style="color: #df0000;" class="fab fa-instagram"></i></a>
+                    </li><li>
+                        <a href="#"><i style="color: #38f132;" class="fab fa-whatsapp"></i></a>
+                    </li><li>
+                        <a href="#"><i style="color: #007bdf;" class="fab fa-twitter"></i></a>
+                    </li><li>
+                        <a href="#"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col span_1_of_2">
+            <div class="blog">
+                <h3 style="font-weight: bold ; color: #00dfa7; padding-bottom: 1rem;">Blog</h3>
+                <div id="blogimg">
+                        <div class="minblog">
+                            <div id="imgBlog">
+                                <img src="img/1.png" alt="">
+                            </div>
+                            <div class="textBlog">
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem, nam! Lorem, ipsum dolor.</p>
+                            </div>
+                        </div>
+                </div>
+                <div id="blogimg" style="padding-top: 1.5rem;">
+                    <div class="minblog">
+                        <div id="imgBlog">
+                                <img src="img/2.png" alt="">
+                        </div>
+                        <div class="textBlog">
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem, nam! Lorem, ipsum dolor.</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="blogimg" style="padding-top: 1.5rem;">
+                    <div class="minblog">
+                        <div id="imgBlog">
+                                <img src="img/3.png" alt="">
+                        </div>
+                        <div class="textBlog">
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem, nam! Lorem, ipsum dolor.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+</div>
+</section>
+<footer id="last"  style="text-align: center;">
+    <div class="container">
+        <div class="lastText" >
+            <hr>
+            <a href="https://www.facebook.com/profile.php?id=100026716455859&viewas=100000686899395">
+                <h3 class="py" style="color: #23b9ff;">Designer : Rashid khan</h3>
+            </a>
+        </div>
+    </div>
+</footer>
+    <script src="vendors/js/jQuery.js"></script>
+    <script src="vendors/js/jquery.waypoints.js"></script>
+    <script src="vendors/js/html5shiv.min.js"></script>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+    <script src="vendors/js/respond.min.js"></script>
+    <script src="vendors/js/selectivizr-min.js"></script>
+    <script src="vendors/js/mixitup.min.js"></script>
+    <script src="vendors/js/aos.js"></script>
+    <script src="vendors/js/typed.min.js"></script>
+    <script src="vendors/js/jquery.counterup.min.js"></script>
+    <script src="js/min.js"></script>
+</body>
+</html>
